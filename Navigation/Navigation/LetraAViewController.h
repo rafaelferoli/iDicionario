@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Dicionario.h"
 
 @interface LetraAViewController : UIViewController
+@property Dicionario *dicionario;
+@property UIButton *botao;
+@property UIImageView *imageView;
 
 @end
